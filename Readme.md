@@ -1,3 +1,6 @@
+How to build : run make.cmd on Windows
+
+
 First kernel : boot.img on SDcard
 
 Second kernel : boot_2.img on SDcard
