@@ -244,9 +244,10 @@ menu1:
                     strcpy(title,"  Booting kernel 2 in mode ?  ");
                     kernelImage = L"/e/boot_2.img";
                 }
-                else
+                else if (currentMenu==0)
                 {
                     strcpy(title,"  Booting kernel 1 in mode ?  ");
+                    kernelImage = L"/e/boot.img";
                 }
 
                 strcpy(entry1,"      Boot in normal mode     ");
